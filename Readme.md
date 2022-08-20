@@ -108,12 +108,13 @@ cmder - this is a command line emulator that in my opinion is easier to use and 
  
 ### Notebook Structure
  
-The notebook is broken down into 9 sections.  
-In the first two sections I go through a brief explanation of what I understand the numpy library to be and its history.  
-Then I explain how to install Numpy (once the dependencies above have been met) and link to the documentation if required.  
-I then dive into the functionality and tools in the library. First looking at what random data is and how to generate different types.  
-Then I look at how that data can be manipulated using permutations and then how it can be interpreted and analysed using different distributions.  
-I look at the seed and discuss if random data is really random, and how to make your work with a random number generator reproducible.  
+The notebook is broken down into 7 sections.  
+In the first section I go through a brief explanation of the project, the different goals it sets out.  
+I then discuss data simulation, some of its history, benifits and real world applications.
+I then discuss how I investigated the real world data to simulate.  
+I synthesise/simulate a data set as closely matching the real world properties as possible.   
+I look at how that data can be analysed to see if the trends in my synthisised data matches the real world research.  
+I draw conclusions from the analysis, where the dataset was right and where it was inconsistint with the real world.  
 Finally I cite the sources I used to put the notebook together.
 
 ##### See the Table Of Contents below
@@ -128,8 +129,8 @@ Table of contents is also at the top of the notebook.
     
 2. About Data Simulation
     - 2.1 Data Simulation a Brief History
-    - 2.2 Benifits of Simulated Data2.2 Benifits of Simulated Data
-    - 2.3 Real World Applications for Simulated Data2.3 Real World Applications for Simulated Data
+    - 2.2 Benifits of Simulated Data
+    - 2.3 Real World Applications for Simulated Data
 
 3. Investigate the types of variables involved, their likely distributions, and their relationships with each other
     
@@ -146,10 +147,7 @@ Table of contents is also at the top of the notebook.
     - 5.4 Analysis of Orders for Phone type
     - 5.5 Analysis of orders by Region (And Finding a Mistake)  
     
-6. Permutations 
-    - 6.1 Function random.shuffle  
-        - 6.1.1 Using shuffle with a multi dimensional array  
-    - 6.2 Function random.permutation   
+6. Conclusions   
     
 7. Citations and Bibliography
     - 7.1 Citations from Notebook
